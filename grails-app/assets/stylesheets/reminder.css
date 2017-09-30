@@ -1,0 +1,119 @@
+.subTitle{
+    margin-left: 370px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 48%;
+}
+.heading2{
+    text-align: center;
+
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2;
+    text-align: center;
+
+}
+#reminderTable{
+    border:Scrollbar;
+    background-color:thistle;
+    margin-left: 270px;
+    width: 70%;
+}
+
+th {
+    text-align: center;
+    background-color:#6c757d;
+    color: white;
+}
+
+.table-two{
+    margin-left:210px;
+
+    margin-top: 10px;
+}
+
+.reminderDetail{
+    font-size: 25px;
+    margin-left:600px;
+    margin-top: 110px;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+}
+.expense{
+    font-size: 25px;
+    margin-left:700px;
+    margin-top: 130px;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.newReminder{
+    margin-top: 50px;
+    margin-left: 520px;
+    color: #16181b;
+}
+
+
+
+*[role="form"] {
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 0.2em;
+    margin-top: -50px;
+    margin-left: 1000px;
+    margin-bottom: 0px;
+}
+
+*[role="form"] h4{
+    margin-left: 11em;
+
+}
+
+.form-horizontal {
+    width: 500px;
+    height: 350px;
+    padding: 15px;
+    margin-top: 10px;
+    /*box-shadow: 1px 1px 1px 1px black;*/
+    background-color: lightgray ;
+    box-shadow: 1px 1px black;
+    margin-left: 570px;
+}
+
+#reminderFooter {
+    bottom: -150px;
+    width: 100%;
+    position: absolute;
+
+    background: url(top_header_back.png) repeat-x left top;
+    color:silver;
+    height: 30px;
+    min-width: 950px;
+    padding: 7px 0 13px;
+
+}
+.footer-block {
+    margin-bottom: 0;
+    text-align: center;
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+#reminderContainer{
+    height: 790px;
+}
